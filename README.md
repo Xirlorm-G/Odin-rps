@@ -1,1 +1,2 @@
-# Odin-rps
+#Rock Paper Scissors
+theOdinProject assingment
