@@ -1,2 +1,2 @@
-#Rock Paper Scissors
-theOdinProject assingment
+#Rock Paper Scissors,
+theOdinProject assignment
