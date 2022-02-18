@@ -1,0 +1,96 @@
+body{
+    background: #abc url('../images/paper-bg.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #555;
+    margin: 0;
+    text-align: center;
+}
+
+main{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*++++++++++ Header ++++++++++*/
+header{
+    margin: 0;
+    padding: 0.4em;
+    text-transform: capitalize;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1{
+    color: #344;
+    margin: 0;
+    padding: 0.2em;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+/*++++++++++ Display ++++++++++*/
+h3{
+    border-bottom: solid 2px #556;
+    padding-bottom: 0.5em;
+}
+
+#display{
+    margin: 0 2em 2em;
+    padding: 1em;
+}
+
+.scores{
+    margin: 0.5em 1em 1em;
+    padding: 1em;
+    color: #444;
+    display: grid;
+    grid-gap: 0.8em;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.win-message{
+    border: solid #556;
+    border-width: 1px 2px;
+    border-radius: 7px;
+    padding: 0.6em;
+}
+
+.player-score, .computer-score{
+    font-size: 2em;
+}
+
+/*++++++++++ Buttons ++++++++++*/
+
+.controls{
+    display: grid;
+    grid-gap: 0.4em;
+    grid-template-columns: repeat(3, 1fr);
+    /*background-color: #4bf;*/
+    padding: 0.3em;
+    border-radius: 8px;
+    margin: 0.5em;
+}
+
+.controls > button{
+    background: #344;
+    color: #ddd;
+    border: 1px solid #567;
+    border-radius: 8px;
+    padding: 1.6em;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1em;
+    font-family: 'Patrick hand', cursive;
+    /*box-shadow: inset -6px -6px 3px #dde;*/
+}
+
+.controls > button:active{
+    background: #999;
+}
+
+#replay{
+    padding: 1.2em;
+    grid-row: 2;
+    grid-column: 2;
+}
+
