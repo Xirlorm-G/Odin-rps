@@ -25,11 +25,11 @@ function game(e){
             computer++
             message = `You lost! ${computerSelection} beats ${playerSelection}`
         }
-        else if (result == 1) {
+        else if (result == 2) {
             player++
             message = 'You win!'
         }
-        else if (result == 2){
+        else if (result == 1){
             computer++
             player++
             message = 'That\'s a tie!'
@@ -66,7 +66,7 @@ function computerPlay(){
 
 
 //Check who wins the round.
-function playRound(playerSelection, computerSelection ){
+function playRound(playerSelection, computerSelection){
     if((playerSelection == 'rock' && computerSelection == 'paper') ||
         (playerSelection == 'paper' && computerSelection == 'scissors') ||
         (playerSelection == 'scissors' && computerSelection == 'rock')){
