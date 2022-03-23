@@ -1,2 +1,2 @@
-#Rock Paper Scissors,
-theOdinProject assignment
+# Rock Paper Scissors,
+An assignment from theodinproject.com, A rock paper scissors game.
